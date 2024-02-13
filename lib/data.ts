@@ -1,10 +1,9 @@
 import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import worklinkImg from "@/public/worklinkImg.png";
+import hooplogicImg from "@/public/hooplogicImg.png";
+import wegoImg from "@/public/wegoImg.png";
 
 export const links = [
   {
@@ -35,52 +34,60 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "SAP Intern I & II",
+    location: "Santiago, Chile",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019"
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "I was a SAP intern learning ERP and ABAP to provide efficient and reliable HR services for an international company.",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021"
+    date: "2021-2022"
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Full-Stack Intern",
+    location: "Austin, TX",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present"
+      "I worked as a full-stack developer at Renzoe Box where I learned React and agile scrum practices from experienced software developers.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022"
+  },
+  {
+    title: "Web Developer",
+    location: "Remote",
+    description:
+      "I'm now a web developer at Cooledtured, an e-commerce where I am enhancing the user experience by developing their new website working with seasoned UI/UX designers and front-end engineers",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present"
+  },
+  {
+    title: "Graduating College",
+    location: "Austin, TX",
+    description:
+      "In May, I will be graduating St. Edward's University after 4 years with a BS in Computer Science and a minor in Business.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024"
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "WorkLink",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Dashboard that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides.",
+    tags: ["React", "HTML", "CSS", "JSON"],
+    imageUrl: worklinkImg,
   },
   {
-    title: "rmtDev",
+    title: "WeGo",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Transportation-as-a-Service dashboard. Both supply and demand sides can track real-time deliveries using Mapbox.",
+    tags: ["HTML", "CSS", "NoSQL", "Flask", "Nginx", "Gunicorn"],
+    imageUrl: wegoImg,
   },
   {
-    title: "Word Analytics",
+    title: "HoopLogic",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A web app tailored for prop bettors to make informed decision when betting by presenting user-friendly graphics.",
+    tags: ["React", "Python", "MySQL", "Flask", "Nginx", "Gunicorn"],
+    imageUrl: hooplogicImg,
   },
 ] as const;
 
@@ -94,14 +101,16 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
+  "Figma",
+  "SQL",
+  "Remix",
   "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
   "Python",
-  "Django",
   "Framer Motion",
+  "D3.js",
+  "Git",
+  "npm",
+  "ABAP",
+  'SAP S4/HANA',
+  "Bilingual"
 ] as const;

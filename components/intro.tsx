@@ -55,7 +55,7 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0}}
         >
             <span className="font-bold">
-                Hello, I'm Garick.
+                Hello, I'm Garick Mendez.
             </span> I'm a{" "}
             <span className="font-bold">
                 Front-End developer
@@ -65,8 +65,8 @@ export default function Intro() {
             </span> of experience. I enjoy
             building  
             <span className="italic">
-                {" "}sites & apps
-            </span>. My focus is{" "}
+                {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
+            </span>sites & apps. My focus is{" "}
             <span className="underline">
                 React (TypeScript)
             </span>.

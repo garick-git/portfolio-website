@@ -19,30 +19,11 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        After graduating with a degree in{" "}
-        <span className="font-medium">Accounting</span>, I decided to pursue my
-        passion for programming. I enrolled in a coding bootcamp and learned{" "}
-        <span className="font-medium">full-stack web development</span>.{" "}
-        <span className="italic">My favorite part of programming</span> is the
-        problem-solving aspect. I <span className="underline">love</span> the
-        feeling of finally figuring out a solution to a problem. My core stack
-        is{" "}
-        <span className="font-medium">
-          React, Next.js, Node.js, and MongoDB
-        </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
-      </p>
-
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
+          During these last four years, I've spent my time learning and creating, which helped me find my passion in Front-End development. Graduating in May 2024, I am looking forward to starting a career in <span className="font-medium">software development.</span> My favorite part of programming is bringing a solution to life. My core stack includes {" "}
+          <span className="italic font-medium">
+            React, Next.js, Node.js, TypeScript, </span><span>and</span> <span className="italic font-medium">Tailwind CSS. </span>
+          I also work with development tools such as<span className="italic font-medium"> npm</span> and <span className="italic font-medium">Git</span>. I am currently working on a teacher dashboard to display data in a user-friendly way. 
+          Besides coding, I am a musician and a soccer fanatic who likes to explore the city of Austin, TX. I like to go to concerts around town and try the many foods this city has to offer.
       </p>
     </motion.section>
   );
