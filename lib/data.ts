@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "WorkLink",
     description:
-      "Dashboard that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides.",
+      "Dashboard that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides with a UT professor.",
     tags: ["React", "HTML", "CSS", "JSON"],
     imageUrl: worklinkImg,
   },
