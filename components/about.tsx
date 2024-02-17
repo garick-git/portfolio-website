@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-          During these last four years, I've spent my time learning and creating, which helped me find my passion for Front-End development. In May 2024, I will be graduating St. Edward's University with a major in computer science and a minor in business. I am looking forward to starting a career in <span className="font-medium">software development.</span> My favorite part of programming is bringing a solution to life.
+          During these last four years, I've spent my time learning and creating, which helped me find my passion for software development. In May 2024, I will be graduating St. Edward's University with a major in computer science and a minor in business, and I am looking forward to pursue my passion full-time. My favorite part of programming is bringing a solution to life.
       </p>
 
       <p>
@@ -27,7 +27,7 @@ export default function About() {
           <span className="italic font-medium">
               React, Next.js, Node.js, TypeScript, </span><span>and</span> <span className="italic font-medium">Tailwind CSS. </span>
             I also work with development tools such as<span className="italic font-medium"> npm</span> and <span className="italic font-medium">Git</span>. I am currently working on a teacher dashboard to display data in a user-friendly way. 
-            Besides coding, I am a musician and a soccer fanatic who likes to explore the city of Austin, TX. I like to go to concerts around town and try the many foods this city has to offer.
+             I am also a musician and a soccer fanatic who likes to explore the city of Austin, TX. I like to go to concerts around town and try the many foods this city has to offer.
       </p>
     </motion.section>
   );

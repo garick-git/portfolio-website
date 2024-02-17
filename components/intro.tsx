@@ -58,7 +58,7 @@ export default function Intro() {
                 Hello, I'm Garick Mendez.
             </span> I'm a{" "}
             <span className="font-bold">
-                Front-End developer
+                Software Developer
             </span> with{" "}
             <span className="font-bold">
                 3 years
