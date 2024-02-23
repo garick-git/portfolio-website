@@ -51,11 +51,11 @@ export const experiencesData = [
   },
   {
     title: "Web Developer Intern",
-    location: "Remote",
+    location: "Austin, TX",
     description:
-      "I'm a web developer at Cooledtured, an e-commerce site. Using TypeScript and React, I enhance the user experience by developing the new website, collaborating with experience UI/UX designers and front-end engineers.",
+      "Web developer at Cooledtured, an e-commerce. Using TypeScript and React, I enhanced the site by developing modern and responsive pages and components. Collaborated with experienced UI/UX and front-end engineers to shape the user experience.",
     icon: React.createElement(CgWorkAlt),
-    date: "2023 - present"
+    date: "2023"
   },
   {
     title: "Graduating College",
