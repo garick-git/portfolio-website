@@ -66,7 +66,7 @@ export default function Intro() {
             building  
             <span className="italic">
                 {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
-            </span>sites & apps. My focus is{" "}
+            </span>sites & apps with a focus in business. My main skills are{" "}
             <span className="underline">
                 React (TypeScript)
             </span>.
