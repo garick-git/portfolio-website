@@ -45,7 +45,7 @@ export const experiencesData = [
     title: "Full-Stack Intern",
     location: "Austin, TX",
     description:
-      "I worked as a full-stack developer at Renzoe Box where I leveraged my skills in React and Python to develop user-focused interfaces and a stable backend infrastructure.",
+      "I interned as a full-stack developer at Renzoe Box where I leveraged my skills in React, Python, and AWS to develop user-focused interfaces and a stable backend infrastructure for an Austin start-up.",
     icon: React.createElement(CgWorkAlt),
     date: "2022"
   },
@@ -58,10 +58,18 @@ export const experiencesData = [
     date: "2023"
   },
   {
+    title: "Freelance Software Engineer",
+    location: "Austin, TX",
+    description:
+      "Currently engineering and implementing a web application for a group of Austin ISD teachers so they can have quick access to class-related data. TS and React based frontend with a Node.js, AWS, and Docker backend.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024"
+  },
+  {
     title: "Graduating College",
     location: "Austin, TX",
     description:
-      "In May, I will be graduating St. Edward's University after 4 years with a BS in Computer Science and a minor in Business.",
+      "In May, I will be graduating St. Edward's University with a BS in Computer Science and a minor in Business.",
     icon: React.createElement(LuGraduationCap),
     date: "2024"
   },
@@ -103,13 +111,12 @@ export const skillsData = [
   "Tailwind",
   "Figma",
   "SQL",
-  "Remix",
+  "AWS",
   "GraphQL",
   "Python",
   "Framer Motion",
   "D3.js",
-  "Git",
-  "npm",
+  "Selenium",
   "ABAP",
   'SAP S4/HANA',
   "Bilingual"
