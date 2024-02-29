@@ -66,9 +66,9 @@ export default function Intro() {
             building  
             <span className="italic">
                 {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
-            </span>sites & apps with a focus in business. My main skills are{" "}
+            </span>sites & apps with a focus in business. My main stack is{" "}
             <span className="underline">
-                React (TypeScript)
+                React, TypeScript, Tailwind CSS
             </span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
