@@ -88,7 +88,7 @@ export default function Intro() {
                 className='group-hover:translate-x-1 transition opacity-70'/>
             </Link>
 
-            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/CV.docx' download>
+            <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/CV.pdf' download>
                 Download CV <HiDownload className='group-hover:translate-y-1 transition opacity-60'/>{" "}
             </a>
             
