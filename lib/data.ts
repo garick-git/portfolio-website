@@ -53,17 +53,9 @@ export const experiencesData = [
     title: "Web Developer Intern",
     location: "Austin, TX",
     description:
-      "Web developer at Cooledtured, an e-commerce. Using TypeScript and React, I enhanced the site by developing modern and responsive pages and components. Collaborated with experienced UI/UX and front-end engineers to shape the user experience.",
+      "Web developer at Cooledtured, an e-commerce. Using TypeScript, React, and GraphQL, I enhanced the site by developing modern and responsive pages and components. Collaborated with experienced UI/UX and front-end engineers to shape the user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "2023"
-  },
-  {
-    title: "Freelance Software Engineer",
-    location: "Austin, TX",
-    description:
-      "Currently engineering and implementing a web application for a group of Austin ISD teachers so they can have quick access to class-related data. TS and React based frontend with a Node.js, AWS, and Docker backend.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024"
   },
   {
     title: "Graduating College",

@@ -27,7 +27,7 @@ export default function About() {
           <span className="italic font-medium">
               React, Next.js, Node.js, TypeScript, </span><span>and</span> <span className="italic font-medium">Tailwind CSS. </span>
             I also work with development tools such as<span className="italic font-medium"> npm</span> and <span className="italic font-medium">Git</span>. I am currently working on an AI application catered towards aspiring musicians with no musical background. 
-             I am also a musician and a soccer fanatic who likes to explore the city of Austin, TX. I like to go to concerts around town and try the many foods this city has to offer.
+             I enjoy composing and producing my own music, watch and play soccer, and explore the city of Austin, TX. I like to go to concerts around town and try the many foods this city has to offer.
       </p>
     </motion.section>
   );
