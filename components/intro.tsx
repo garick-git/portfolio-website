@@ -72,7 +72,7 @@ export default function Intro() {
             </span>
             and
             <span className="underline">
-                {" "} AWS.
+                {" "} AWS
             </span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
