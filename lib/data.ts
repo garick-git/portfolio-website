@@ -74,6 +74,7 @@ export const projectsData = [
       "Interface that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides with a UT professor.",
     tags: ["React", "HTML", "CSS", "JSON"],
     imageUrl: worklinkImg,
+    href: "https://github.com/garick-git/worklink"
   },
   {
     title: "WeGo",
@@ -81,6 +82,7 @@ export const projectsData = [
       "Engineered the front-end for a Transportation-as-a-Service app with both supply and demand sides to track real-time deliveries.",
     tags: ["HTML", "CSS", "NoSQL", "Flask", "JavaScript"],
     imageUrl: wegoImg,
+    href: "https://github.com/garick-git/wego"
   },
   {
     title: "HoopLogic",
@@ -88,6 +90,7 @@ export const projectsData = [
       "A web app tailored for prop bettors to make informed decision when betting by presenting relevant stats with user-friendly graphics.",
     tags: ["React", "Python", "MySQL", "Flask", "Nginx", "Gunicorn"],
     imageUrl: hooplogicImg,
+    href: "https://github.com/garick-git/hooplogic"
   },
 ] as const;
 
