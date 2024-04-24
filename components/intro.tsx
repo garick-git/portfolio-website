@@ -58,7 +58,7 @@ export default function Intro() {
                 Hello, I'm Garick Mendez.
             </span> I'm a{" "}
             <span className="font-bold">
-                Software Developer
+                Frontend Developer
             </span> with{" "}
             <span className="font-bold">
                 3 years
@@ -68,11 +68,15 @@ export default function Intro() {
                 {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
             </span>sites & apps with a focus in business. My main stack is{" "}
             <span className="underline">
-                React, TypeScript, Tailwind CSS,
+                React,
             </span>
-            and
+            {" "}
             <span className="underline">
-                {" "} AWS
+                TypeScript, 
+            </span>
+            {" "} and{" "} 
+            <span className="underline">
+            Tailwind CSS
             </span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
