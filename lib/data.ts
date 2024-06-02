@@ -58,10 +58,10 @@ export const experiencesData = [
     date: "2023"
   },
   {
-    title: "Graduating College",
+    title: "Frontend Developer",
     location: "Austin, TX",
     description:
-      "In May, I will be graduating St. Edward's University with a BS in Computer Science and a minor in Business.",
+      "I am now a Frontend Developer for Asset Innovation, an in-house software development company for Jeff Martin Auctioneers, where I am engineering and implementing their new auction ecosystem with the use of modern technologies like React and Next.",
     icon: React.createElement(LuGraduationCap),
     date: "2024"
   },

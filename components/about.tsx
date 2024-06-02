@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-          During these last four years, I've spent my time learning and creating, which helped me find my passion for software development. In May 2024, I will be graduating St. Edward's University with a major in computer science and a minor in business, and I am looking forward to pursue my passion full-time. My favorite part of programming is bringing a solution to life.
+          I always liked to spend my time learning and creating, which helped me find my passion for software development. In May 2024, I graduated St. Edward's University with a major in computer science and a minor in business, and am now pursuing my passion full-time. My favorite part of programming is bringing ideas to life and collectively solving problems.
       </p>
 
       <p>
