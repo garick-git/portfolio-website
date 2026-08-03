@@ -63,7 +63,7 @@ export const experiencesData = [
     description:
       "As Front-End Developer at Jeff Martin Auctioneers, I led the design-to-code pipeline for two separate applications — a customer-facing platform and a staff tool — making the architecture and UI calls that shaped both. Built with Next.js, TypeScript, and Tailwind, tested with Vitest, and managed through Figma and Jira.",
     icon: React.createElement(LuGraduationCap),
-    date: "2024"
+    date: "2024-2026"
   },
 ] as const;
 
