@@ -61,7 +61,7 @@ export const experiencesData = [
     title: "Frontend Developer",
     location: "Austin, TX",
     description:
-      "I am now a Frontend Developer for Asset Innovation, an in-house software development company for Jeff Martin Auctioneers, where I am engineering and implementing their new auction ecosystem with the use of modern technologies like React and Next.",
+      "As Front-End Developer at Jeff Martin Auctioneers, I led the design-to-code pipeline for two separate applications — a customer-facing platform and a staff tool — making the architecture and UI calls that shaped both. Built with Next.js, TypeScript, and Tailwind, tested with Vitest, and managed through Figma and Jira.",
     icon: React.createElement(LuGraduationCap),
     date: "2024"
   },
@@ -97,22 +97,18 @@ export const projectsData = [
 export const skillsData = [
   "HTML",
   "CSS",
-  "JavaScript",
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
+  "Vitest",
   "Git",
   "Tailwind",
+  "Node.js",
   "Figma",
-  "SQL",
-  "AWS",
-  "GraphQL",
   "Python",
   "Framer Motion",
-  "D3.js",
-  "Selenium",
+  "Jira",
   "ABAP",
   'SAP S4/HANA',
-  "Bilingual"
+  'Bilingual'
 ] as const;
