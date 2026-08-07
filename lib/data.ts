@@ -71,7 +71,7 @@ export const projectsData = [
   {
     title: "WorkLink",
     description:
-      "Interface that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides with a UT professor.",
+      "Interface that allows managers to create organizations and delegate tasks. I engineered and developed both supply and demand sides with a professor at the University of Texas.",
     tags: ["React", "HTML", "CSS", "JSON"],
     imageUrl: worklinkImg,
     href: "https://github.com/garick-git/worklink"
