@@ -50,18 +50,18 @@ export const experiencesData = [
     date: "2022"
   },
   {
-    title: "Web Developer Intern",
+    title: "Front-End Intern",
     location: "Austin, TX",
     description:
-      "Web developer at Cooledtured, an e-commerce. Using TypeScript, React, and GraphQL, I enhanced the site by developing modern and responsive pages and components. Collaborated with experienced UI/UX and front-end engineers to shape the user experience.",
+      "Front-End Intern at Cooledtured, an e-commerce. Using TypeScript, React, and GraphQL, I enhanced the site by developing modern and responsive pages and components. Collaborated with experienced UI/UX and front-end engineers to shape the user experience.",
     icon: React.createElement(CgWorkAlt),
     date: "2023"
   },
   {
-    title: "Frontend Developer",
+    title: "Front-End Engineer",
     location: "Austin, TX",
     description:
-      "As Front-End Developer at Jeff Martin Auctioneers, I led the design-to-code pipeline for two separate applications — a customer-facing platform and a staff tool — making the architecture and UI calls that shaped both. Built with Next.js, TypeScript, and Tailwind, tested with Vitest, and managed through Figma and Jira.",
+      "As Front-End Engineer at Jeff Martin Auctioneers, I led the design-to-code pipeline for two separate applications — a customer-facing platform and a staff tool — making the architecture and UI calls that shaped both. Built with Next.js, TypeScript, and Tailwind, tested with Vitest, and managed through Figma and Jira.",
     icon: React.createElement(LuGraduationCap),
     date: "2024-2026"
   },
