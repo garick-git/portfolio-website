@@ -67,12 +67,20 @@ export default function Intro() {
             <span className="italic">
                 {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
             </span>sites & apps with a focus in business. My main stack is{" "}
-            <span className="underline">
-                React,
+            <span className="">
+                React
             </span>
             {" "}
             <span className="underline">
-                TypeScript, 
+                 (TypeScript), 
+            </span>
+            {" "}
+            <span className="">
+                Django
+            </span>
+            {" "}
+            <span className="underline">
+                 (Python), 
             </span>
             {" "} and{" "} 
             <span className="underline">
