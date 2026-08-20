@@ -20,10 +20,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html className="!scroll-smooth" lang="en">
-      <body
-        className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
-      >
+<html className="!scroll-smooth" lang="en" data-scroll-behavior="smooth">
+        <body
+  className={`${inter.className} bg-gray-50 text-gray-950 relative pt-28 sm:pt-36 dark:bg-gray-900 dark:text-gray-50 dark:text-opacity-90`}
+  suppressHydrationWarning
+>
         <div className="bg-[#fbe2e3] absolute top-[-6rem] -z-10 right-[11rem] h-[31.25rem] w-[31.25rem] rounded-full blur-[10rem] sm:w-[68.75rem] dark:bg-[#946263]">
 
         </div>
