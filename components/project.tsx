@@ -12,7 +12,7 @@ export default function Project({
   description,
   tags,
   imageUrl,
-  href
+  href,
 }: ProjectProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({
@@ -31,30 +31,45 @@ export default function Project({
       }}
       className="group mb-3 sm:mb-8 last:mb-0"
     >
-      <section className="bg-gray-100 max-w-[42rem] border border-black/5 rounded-lg overflow-hidden sm:pr-8 relative sm:h-[20rem] hover:bg-gray-200 transition sm:group-even:pl-8 dark:bg-white/10 dark:hover:bg-white/20 cursor-pointer" onClick={() => window.open(href)}>
-        <div className="pt-4 pb-7 px-5 sm:pl-10 sm:pr-2 sm:pt-10 sm:max-w-[50%] flex flex-col h-full sm:group-even:ml-[18rem]">
-          <h3 className="text-2xl font-semibold">{title}</h3>
-          <p className="dark:text-white/70 leading-relaxed text-gray-700 mt-3">
-            {description}
-          </p>
-          <ul className="flex flex-wrap mt-4 gap-2 sm:mt-auto">
-            {tags.map((tag, index) => (
-              <li
-                className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
-                key={index}
-              >
-                {tag}
-              </li>
-            ))}
-          </ul>
-        </div>
+      {/* A real link instead of onClick: keyboard-focusable, and shows the URL on hover */}
+      <a
+        href={href}
+        target="_blank"
+        rel="noopener noreferrer"
+        aria-label={`${title} on GitHub (opens in a new tab)`}
+        className="block rounded-lg focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-gray-400"
+      >
+        {/*
+          Changes:
+          - max-w 42rem -> 48rem (wider card)
+          - fixed sm:h-[20rem] -> md:min-h-[20rem], so the card grows with its text instead of clipping the badges
+          - md:flex lets the text column stretch to the card's full height, so the badges still sit at the bottom
+          - side-by-side layout starts at md (768px) instead of sm (640px); between 640 and 768px it was too cramped
+        */}
+        <section className="bg-gray-100 max-w-[48rem] border border-black/5 rounded-lg overflow-hidden relative md:flex md:min-h-[20rem] md:pr-8 md:group-even:pl-8 hover:bg-gray-200 transition dark:bg-white/10 dark:hover:bg-white/20">
+          <div className="pt-4 pb-7 px-5 md:pl-10 md:pr-2 md:pt-10 md:max-w-[55%] md:group-even:ml-auto flex flex-col">
+            <h3 className="text-2xl font-semibold">{title}</h3>
+            <p className="dark:text-white/70 leading-relaxed text-gray-700 mt-3">
+              {description}
+            </p>
+            <ul className="flex flex-wrap mt-4 gap-2 md:mt-auto md:pt-4">
+              {tags.map((tag, index) => (
+                <li
+                  className="bg-black/[0.7] px-3 py-1 text-[0.7rem] uppercase tracking-wider text-white rounded-full"
+                  key={index}
+                >
+                  {tag}
+                </li>
+              ))}
+            </ul>
+          </div>
 
-        <Image
-          src={imageUrl}
-          alt="Project I worked on"
-          quality={95}
-          className="absolute hidden sm:block top-8 -right-40 w-[28.25rem] rounded-t-lg shadow-2xl
-        transition 
+          <Image
+            src={imageUrl}
+            alt={`Screenshot of ${title}`}
+            quality={95}
+            className="absolute hidden md:block top-8 -right-32 w-[28.25rem] rounded-t-lg shadow-2xl
+        transition
         group-hover:scale-[1.04]
         group-hover:-translate-x-3
         group-hover:translate-y-3
@@ -64,9 +79,10 @@ export default function Project({
         group-even:group-hover:translate-y-3
         group-even:group-hover:rotate-2
 
-        group-even:right-[initial] group-even:-left-40"
-        />
-      </section>
+        group-even:right-[initial] group-even:-left-32"
+          />
+        </section>
+      </a>
     </motion.div>
   );
 }

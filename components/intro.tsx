@@ -1,6 +1,5 @@
 "use client";
 
-import React from 'react'
 import Image from 'next/image'
 import { motion } from 'framer-motion'
 import Link from 'next/link'
@@ -13,7 +12,7 @@ import { useActiveSectionContext } from '@/context/active-section-context';
 export default function Intro() {
     const{ setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
     const { ref } = useSectionInView("Home", 0.5);
-    
+
     return (
     <section ref={ref} id = "home" className='mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem] text-center'>
         <div className='flex items-center justify-center'>
@@ -26,9 +25,9 @@ export default function Intro() {
                         duration: 0.2
                     }}
                 >
-                    <Image 
-                        src= "/profilePicture.png" 
-                        alt="Garick portrait"
+                    <Image
+                        src= "/profilePicture.png"
+                        alt="Garick Mendez"
                         width="192"
                         height="192"
                         quality="95"
@@ -37,7 +36,7 @@ export default function Intro() {
                     />
                 </motion.div>
 
-                <motion.span 
+                <motion.span
                 initial={{opacity: 0, scale: 0}}
                 animate={{opacity: 1, scale: 1}}
                 transition={{
@@ -46,46 +45,23 @@ export default function Intro() {
                     delay:0.1,
                     duration:0.7
                 }}
+                aria-hidden="true"
                 className='absolute text-4xl bottom-0 right-0'>👋</motion.span>
             </div>
         </div>
-        
+
         <motion.h1 className='mb-10 mt-4 font-medium px-4 text-2xl leading-[1.5]'
         initial={{ opacity: 0, y: 100}}
         animate={{ opacity: 1, y: 0}}
         >
-            <span className="font-bold">
-                Hello, I'm Garick Mendez.
-            </span> I'm a{" "}
-            <span className="font-bold">
-                Software Developer
-            </span> with{" "}
-            <span className="font-bold">
-                4 years
-            </span> of experience. I enjoy
-            building  
-            <span className="italic">
-                {" "}reactive</span> <span>and</span> <span className="italic"> rich {" "}
-            </span>sites & apps with a focus in business. My main stack is{" "}
-            <span className="">
-                React
-            </span>
-            {" "}
-            <span className="underline">
-                 (TypeScript), 
-            </span>
-            {" "}
-            <span className="">
-                Django
-            </span>
-            {" "}
-            <span className="underline">
-                 (Python), 
-            </span>
-            {" "} and{" "} 
-            <span className="underline">
-            Tailwind CSS
-            </span>.
+            <span className="font-bold">Hello, I'm Garick Mendez.</span>{" "}
+            I'm an Austin-based <span className="font-bold">Software Engineer</span> with{" "}
+            <span className="font-bold">2+ years</span> of professional experience and internships since 2021.
+            I build <span className="italic">fast</span>, <span className="italic">accessible</span> web apps
+            that businesses run on, from customer platforms to internal tools. My main stack is{" "}
+            <span className="underline">Next.js (TypeScript)</span>,{" "}
+            <span className="underline">Django (Python)</span>, and{" "}
+            <span className="underline">Tailwind CSS</span>.
         </motion.h1>
         <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
             initial={{ opacity: 0, y: 100}}
@@ -100,19 +76,29 @@ export default function Intro() {
                 setTimeOfLastClick(Date.now())
             }}
             >
-                Contact me here<BsArrowRight 
+                Contact me here<BsArrowRight
                 className='group-hover:translate-x-1 transition opacity-70'/>
             </Link>
 
             <a className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none hover:scale-110 focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10' href='/Garick_Mendez_Resume.pdf' download>
-                Download CV <HiDownload className='group-hover:translate-y-1 transition opacity-60'/>{" "}
+                Download CV <HiDownload className='group-hover:translate-y-1 transition opacity-60'/>
             </a>
-            
-            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus-scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark: bg-white/10 dark:text-white/60' href="https://www.linkedin.com/in/garick-mendez" target='_blank'>
+
+            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
+                href="https://www.linkedin.com/in/garick-mendez"
+                target='_blank'
+                rel="noopener noreferrer"
+                aria-label="LinkedIn profile (opens in a new tab)"
+            >
                 <BsLinkedin />
             </a>
 
-            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus-scale-[1.15] hover:scale-[1.15] hover:text-gray-950 text-[1.35rem] focus:scale-110 active:scale-105 transition cursor-pointer borderBlack dark: bg-white/10 dark:text-white/60' href="https://github.com/garick-git" target='_blank'>
+            <a className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 text-[1.35rem] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60'
+                href="https://github.com/garick-git"
+                target='_blank'
+                rel="noopener noreferrer"
+                aria-label="GitHub profile (opens in a new tab)"
+            >
                 <FaGithubSquare />
             </a>
         </motion.div>
