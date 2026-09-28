@@ -5,6 +5,7 @@ import { LuCode, LuUsers} from "react-icons/lu";
 import pokemonImg from "@/public/pokemonImg.png";
 import worklinkImg from "@/public/worklinkImg.png";
 import hooplogicImg from "@/public/hooplogicImg.png";
+import huntsyncImg from "@/public/huntsyncImg.png";
 
 export const links = [
   {
@@ -34,6 +35,14 @@ export const links = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "HuntSync API Audit",
+    description:
+      "An AI-assisted testing and security audit of HuntSync, a hunting-club management app with a Django REST Framework and PostgreSQL back end. I designed the testing process, ran every one of its 152 API endpoints through it with Claude and pytest, grew the test suite by 500+ tests, and found defects in 68 endpoints, including payment and safety features, each documented with a failing test and a suggested fix for the founding engineer.",
+    tags: ["Python", "Django", "PostgreSQL", "pytest", "Docker", "Claude"],
+    imageUrl: huntsyncImg,
+    href: "https://huntsafetechnologies.com/",
+  },
   {
     title: "Pokémon Gallery",
     description:
@@ -102,14 +111,6 @@ export const skillsData = [
 // Newest first
 export const experiencesData = [
   {
-    title: "Back-End Intern",
-    location: "Austin, TX",
-    description:
-      "At Hunt Safe Technologies, I'm expanding into backend engineering after two years of leading front-end work. I designed and ran a security audit of HuntSync's 152-endpoint Django/PostgreSQL REST API, confirming defects in 68 endpoints, including 19 high-risk payment and safety flows, and grew the pytest suite by 547 tests covering Stripe payments, billing, and SMS webhooks.",
-    icon: React.createElement(LuCode),
-    date: "2026 - Now",
-  },
-  {
     title: "Front-End Developer",
     location: "Austin, TX",
     description:
@@ -139,7 +140,7 @@ export const experiencesData = [
     description:
       "At Renzoe Box, an Austin beauty-tech startup, I supported CRUD work in a React, Flask, and SQL stack and AWS infrastructure (Amplify, S3, Lambda) under senior engineers, and cut post-release defects by 50% through linting, Git-based code reviews, and documentation across 8 sprints.",
     icon: React.createElement(LuCode),
-    date: "2022 - 2023",
+    date: "2022",
   },
   {
     title: "SAP Intern I & II",
