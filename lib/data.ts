@@ -111,7 +111,7 @@ export const skillsData = [
 // Newest first
 export const experiencesData = [
   {
-    title: "Front-End Developer",
+    title: "Front-End Software Engineer",
     location: "Austin, TX",
     description:
       "As the sole front-end developer at Jeff Martin Auctioneers, I led the replacement of a legacy ERP with a Dockerized Next.js and TypeScript system, building 176 React components across 83 pages and working with 3 backend engineers on REST API design for 8 services. I interviewed staff and leadership to shape Figma designs, owned 2 WCAG accessibility epics, maintained a 50+ test Vitest suite, and built a WebSocket-powered live auction display with Dolby livestreaming.",
@@ -135,7 +135,7 @@ export const experiencesData = [
     date: "2023 - 2024",
   },
   {
-    title: "Full-Stack Intern",
+    title: "Full-Stack Software Intern",
     location: "Austin, TX",
     description:
       "At Renzoe Box, an Austin beauty-tech startup, I supported CRUD work in a React, Flask, and SQL stack and AWS infrastructure (Amplify, S3, Lambda) under senior engineers, and cut post-release defects by 50% through linting, Git-based code reviews, and documentation across 8 sprints.",
