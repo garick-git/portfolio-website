@@ -36,7 +36,7 @@ export const links = [
 
 export const projectsData = [
   {
-    title: "HuntSync API Audit",
+    title: "Hunt-Sync API Audit",
     description:
       "An AI-assisted testing and security audit of HuntSync, a hunting-club management app with a Django REST Framework and PostgreSQL back end. I designed the testing process, ran every one of its 152 API endpoints through it with Claude and pytest, grew the test suite by 500+ tests, and found defects in 68 endpoints, including payment and safety features, each documented with a failing test and a suggested fix for the founding engineer.",
     tags: ["Python", "Django", "PostgreSQL", "pytest", "Docker", "Claude"],
